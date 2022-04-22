@@ -1,0 +1,22 @@
+
+forma de organizar tabla 
+
+<table> 
+	<tr>este es la forma de identificar el formato de la cabecera (fila)
+		<th>supermercado</th>  de esta manera se nombran las columnas 
+		<th> nombrecolumna2</th>
+	</tr>(fin de dila)
+	<tr>(inicio fila)
+		<td>valor1 columna1</td>
+		<td> valo1 columna2</td>
+	</tr>(fin de fila )
+
+
+
+
+
+
+
+
+
+	
