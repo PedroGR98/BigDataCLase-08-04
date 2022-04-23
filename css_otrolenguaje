@@ -1,0 +1,6 @@
+<html>
+	<head>
+		<style>
+		 .gris(background-color:gray;)<!-- el primer punto habla de clase-->
+		 .rojo(background-color:red;)<!-- si no hay punto ni nada estamos modificando un tag-->
+		 .negro(background-color:black;)

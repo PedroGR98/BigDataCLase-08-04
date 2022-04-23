@@ -1,28 +1,55 @@
 <html>
 	<head>
 		<title>Pagina de Big Data</title>
+		<style type="text/css">
+			/*editando tags*/
+			body{
+				background-color: lightyellow;
+
+			}
+			table,td,th{
+				border: solid black;
+			}
+			div{
+				margin: 20px;
+				padding: 10px;
+			}
+
+			/* editanto clases*/
+			.titulo{
+				text-align: center;
+			}
+			.subtitulo{
+				text-align: center;
+				background-color: aliceblue;
+			}
+			.unidad{
+				background-color: brown;
+			}
+		</style>
 	</head>
 	<body>
 		<div>
-			<h1>Mi Primer texto en el html</h1>
+			<h1 class="titulo">Mi Primer texto en el html</h1>
 			<div>
-				<h2>unidad de de texto cuerpo y otros</h2>
-				<div>
+				<h2 class="subtitulo">unidad de de texto cuerpo y otros</h2>
+				<div class="unidad">
 					<h3>link</h3>
 					<p>acontinuacion revisaremos com  hacer los link en las paginas web, para esto usamos el comando "(&#8249;a href = "paginareferencial.html"&#8250;hacer clik aqui para youtube &#8249;/a&#8250;)".</p>
 					<a href="https://www.youtube.com/">hacer click aqui</a>
 				</div>
-				<div>
+				<div class="unidad">
 					<h3>div</h3>
 					<p>esmos estado trabajando con el div par generar espacios o ventanas en la pagina web y su comando o codigo es &#8249;div&#8250; contenido &#8249;/div&#8250;</p>
 					<img src="div.png" width="200px" />
 				</div>
-				<div>
+				<div class="unidad">
 					<h3>imagen</h3>
 					<p>para incertar una imagen necitamos el codigo  &#8249;img src="path/nombre_imagen.jpg"/&#8250;, si deceamos manipular el tamaño basta con agregar &#8249;"width"= 800px&#8250; </p>
 					<img src="bigdata.webp" width="800px" />
 				</div>
-				<div>
+				<div class="unidad">
+					<!-- esto nadie lo va a saber -->
 						<table>
 							<tr>
 								<th>Unidad</th>
@@ -50,6 +77,7 @@
 								<td><p>Dale un vistazo <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p></td>
 							</tr>
 						</table>
+					<div><img src="golftuning.jpg" width="500px" /></div>
 			</div>
 		</div>
 	</body>
