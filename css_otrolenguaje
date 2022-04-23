@@ -4,3 +4,7 @@
 		 .gris(background-color:gray;)<!-- el primer punto habla de clase-->
 		 .rojo(background-color:red;)<!-- si no hay punto ni nada estamos modificando un tag-->
 		 .negro(background-color:black;)
+
+
+
+		 existen formas de organizar los textos o titulos 
